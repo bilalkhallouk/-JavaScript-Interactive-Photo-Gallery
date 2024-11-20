@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#show_img {
+    width: 25%;
+    height: 170px;
+    margin: 0 auto 20px;
+    background-color: #7a5cc2;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    cursor: pointer;
+}
